@@ -1,44 +1,16 @@
-/* navbar styling*/
+/* navbar*/
 a.navbar-brand{
     padding: 10px;
-    background-color: gray;
+    background-color:lightblue;
     font-size: 15px;
     font-weight: bolder;
 }
 
-/* header styling*/
-h3{
-    color: gray;
-    padding: 15px;
-    font-weight: bolder;
-}
-
-/* image styling*/
-.img-thumbnail{
-    padding:10px;
-    border: none;
-}
-
-
-/* body background*/
-body{
-    background-color: whitesmoke;
-}
-.col-md-12{
-    background-color: white;
-    padding-top: 20px;
-    padding-bottom:40px;
-}
-
-/* image border styling*/
-.pic{
-    border: 3px solid rgb(81, 175, 160);
-}
-/* navbar styling*/
 .navbar{
     padding-top:0px;
     padding-bottom: 0px;
     padding-right:40px;
+    padding-left: 40px;
 }
 
 .nav-item.dropdown.show {
@@ -49,6 +21,32 @@ body{
     margin: 0;
 }
 
+/* header*/
+h1{
+    color: gray;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+h3{
+    color: gray;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+/* body*/
+body{
+    background-color: whitesmoke;
+}
+
+.img-thumbnail{
+    padding:10px;
+    border: black;
+}    
+
+.row { align-items: center; 
+}
+
 /* content styling*/
 .content {
     padding-top: 50px;
@@ -57,5 +55,5 @@ body{
 }
 
 .content.bg-white {
-    margin-top: 15px;
+    margin-top: 10px;
 }
